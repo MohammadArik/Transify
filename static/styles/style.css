@@ -57,7 +57,7 @@ html,body{
 .buttons .inactive,
 .upload-form{
   box-shadow: 
-    -10px -10px 10px rgba(255,255,255,0.7),
+    -10px -10px 10px rgba(255,255,255,0.5),
     10px 10px 10px rgba(70,70,70,0.12)
   ;
   
@@ -65,9 +65,9 @@ html,body{
 
 .buttons .active {
   box-shadow: 
-    -10px -10px 10px rgba(255,255,255,0.7),
+    -10px -10px 10px rgba(255,255,255,0.5),
     10px 10px 10px rgba(70,70,70,0.12),
-    inset -10px -10px 15px rgba(255,255,255,0.7),
+    inset -10px -10px 15px rgba(255,255,255,0.5),
     inset 5px 5px 10px rgba(70,70,70,0.12)
   !important;
 }
@@ -78,7 +78,7 @@ html,body{
   border: 0;
   padding: .5rem;
   box-shadow: 
-    inset -10px -10px 10px rgba(255,255,255,0.7),
+    inset -10px -10px 10px rgba(255,255,255,0.5),
     inset 10px 10px 10px rgba(70,70,70,0.12)
   !important;
 }
@@ -90,7 +90,7 @@ button{
   border: 0;
   padding: .7rem 1rem;
   box-shadow: 
-    -10px -10px 10px rgba(255,255,255,0.7),
+    -10px -10px 10px rgba(255,255,255,0.5),
     10px 10px 10px rgba(70,70,70,0.12)
   ;
 }
