@@ -8,6 +8,7 @@ app= Flask(__name__)
 api= Api(app)
 app.config["MAX_CONTENT_LENGTH"] = 10485760000
 app.config["UPLOAD_FOLDER"] = "./UploadedFiles"
+# app.config["CACHE_TYPE"] = "null"
 
 arguments = reqparse.RequestParser() 
 arguments.add_argument("name", type=str)
@@ -23,11 +24,15 @@ for n, i in enumerate(today):
         dateToday+=i
 
 
+if not os.path.isdir(app.config["UPLOAD_FOLDER"]):
+  os.mkdir(app.config["UPLOAD_FOLDER"])
+
 class Transify(Resource):
   def post(self):
     files= request.files.getlist("files")
     args = arguments.parse_args()
     
+
     userDirectory = os.path.join(app.config["UPLOAD_FOLDER"], args["name"].lower())
     fileUploadDirectory = os.path.join(app.config["UPLOAD_FOLDER"], args["name"].lower(), dateToday)
 
