@@ -1,0 +1,96 @@
+html,body{
+  overflow-x: hidden;
+  background-color: #ececec;
+  color: #1e1e1e;
+  margin: 0;
+  padding: 0;
+}
+
+
+.heading{
+  color: #fff;
+  background-color: #1e1e1e;
+  width: 100%;
+  padding: 1rem 0rem;
+  margin: 0;
+}
+.heading h2{
+  font-weight: 300;
+  margin-left: 1.5rem;
+}
+
+.container{
+  margin-left:10%;
+  width:80%;
+}
+
+.buttons {
+  margin: 2.5rem 0;
+}
+
+.active {
+  margin: 2.5rem 0;
+}
+
+.heading a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.buttons a{
+  text-decoration: none;
+  background-color: #ececec;
+  color: #1e1e1e;
+  padding: .8rem 1.6rem;
+  margin: 0 1rem;
+  border-radius: 2rem;
+}
+
+.upload-form{
+  background-color: #ececec;
+  margin: 3rem 0;
+  padding: 5rem 1rem 4rem 1rem;
+  border-radius: 2rem;
+  max-width: 580px;
+}
+
+.buttons .inactive,
+.upload-form{
+  box-shadow: 
+    -10px -10px 10px rgba(255,255,255,0.7),
+    10px 10px 10px rgba(70,70,70,0.12)
+  ;
+  
+}
+
+.buttons .active {
+  box-shadow: 
+    -10px -10px 10px rgba(255,255,255,0.7),
+    10px 10px 10px rgba(70,70,70,0.12),
+    inset -10px -10px 15px rgba(255,255,255,0.7),
+    inset 5px 5px 10px rgba(70,70,70,0.12)
+  !important;
+}
+
+.username-field{
+  border-radius: 1rem;
+  background-color: #ececec;
+  border: 0;
+  padding: .5rem;
+  box-shadow: 
+    inset -10px -10px 10px rgba(255,255,255,0.7),
+    inset 10px 10px 10px rgba(70,70,70,0.12)
+  !important;
+}
+
+
+button{
+  border-radius: 2rem;
+  background: #ececec;
+  border: 0;
+  padding: .7rem 1rem;
+  box-shadow: 
+    -10px -10px 10px rgba(255,255,255,0.7),
+    10px 10px 10px rgba(70,70,70,0.12)
+  ;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Transify</title>
+	<meta name="author" content="arik.netlify.app">
+	
+	<!-- Style.css -->
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="heading">
+    <div class="container">
+        <h1>Transify</h1>
+        <h2>-by <a href="https://arik.netlify.app">Mohammad Arik</a></h2>
+    </div>
+  </div>
+
+  <div class="container">
+    
+    <div class="buttons">
+      <a href="#" class="active">Upload</a>
+      <a href="./download.html" class="inactive">Download</a>
+    </div>
+    
+    <div class="upload-form">
+      <h2>Choose files you want to upload to the server....</h2>
+      <form enctype="multipart/form-data" action="/upload" method="post">
+        <input name="name" class="username-field" placeholder="Username" type="text"><br/><br/>
+        <input multiple type="file" name="files"/><br /><br />
+        
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    
+	</div>
+
+
+
+</body>
+</html>
