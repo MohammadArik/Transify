@@ -1,6 +1,6 @@
 html,body{
   overflow-x: hidden;
-  background-color: #ececec;
+  background: #bddaeb;
   color: #1e1e1e;
   margin: 0;
   padding: 0;
@@ -39,58 +39,44 @@ html,body{
 
 .buttons a{
   text-decoration: none;
-  background-color: #ececec;
+  background: #bddaeb;
   color: #1e1e1e;
   padding: .8rem 1.6rem;
   margin: 0 1rem;
   border-radius: 2rem;
+  box-shadow:  9px 9px 15px #93aab7, 
+             -9px -9px 15px #e7ffff;
 }
 
 .upload-form{
-  background-color: #ececec;
+  border-radius: 50px;
+  background: #bddaeb;
+  box-shadow:  20px 20px 60px #93aab7, 
+             -20px -20px 60px #e7ffff;
   margin: 3rem 0;
   padding: 5rem 1rem 4rem 1rem;
-  border-radius: 2rem;
   max-width: 580px;
 }
 
-.buttons .inactive,
-.upload-form{
-  box-shadow: 
-    -10px -10px 10px rgba(255,255,255,0.5),
-    10px 10px 10px rgba(70,70,70,0.12)
-  ;
-  
-}
 
 .buttons .active {
-  box-shadow: 
-    -10px -10px 10px rgba(255,255,255,0.5),
-    10px 10px 10px rgba(70,70,70,0.12),
-    inset -10px -10px 15px rgba(255,255,255,0.5),
-    inset 5px 5px 10px rgba(70,70,70,0.12)
-  !important;
+  box-shadow: inset 9px 9px 15px #93aab7, 
+            inset -9px -9px 15px #e7ffff;
 }
 
 .username-field{
   border-radius: 1rem;
   background-color: #ececec;
+  color: #1e1e1e;
   border: 0;
   padding: .5rem;
-  box-shadow: 
-    inset -10px -10px 10px rgba(255,255,255,0.5),
-    inset 10px 10px 10px rgba(70,70,70,0.12)
-  !important;
+  box-shadow: inset 9px 9px 10px #93aab7, 
+            inset -9px -9px 10px #e7ffff;
 }
-
 
 button{
   border-radius: 2rem;
   background: #ececec;
   border: 0;
   padding: .7rem 1rem;
-  box-shadow: 
-    -10px -10px 10px rgba(255,255,255,0.5),
-    10px 10px 10px rgba(70,70,70,0.12)
-  ;
 }
